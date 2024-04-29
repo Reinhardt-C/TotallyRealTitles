@@ -4,7 +4,13 @@
     "description": "Adds more titles to Lichess",
     "version": "1.0",
     "action": {
-        "default_popup": "index.html",
-        "default_icon": "lm.png"
-    }
+        "default_popup": "./popup/index.html",
+        "default_icon": "./assets/lm.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["http://lichess.org/*", "https://lichess.org/*"],
+            "js": ["./scripts/main.js"]
+        }
+    ]
 }
