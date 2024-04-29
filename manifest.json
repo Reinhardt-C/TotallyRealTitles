@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "TotallyRealTitles",
+    "description": "Adds more titles to Lichess",
+    "version": "1.0",
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "lm.png"
+    }
+}
