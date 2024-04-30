@@ -1,5 +1,5 @@
 const TEMPVISTITLES = {
-    "fluoxetine_eater": ["Cute Master", "CM"],
+    "fluoxetine_eater": ["Cutie Master", "CM"],
     "ReinhardtC": ["Not Master", "NM"]
 };
 
@@ -10,7 +10,7 @@ function run(muts) {
             addTitle(l, ...TEMPVISTITLES[u]);
 }
 
-function addTitle(l, name = "Master", abbr = "M", colour = "var(--c-brag)") {
+function addTitle(l, name = "Master", abbr = "M", colour = "#d6483e") {
     const title = document.createElement("span");
     title.className = "utitle"; title.title = name;
     title.innerText = abbr; title.style.color = colour;
