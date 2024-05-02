@@ -1,5 +1,5 @@
 const TEMPVISTITLES = {
-    "fluoxetine_eater": ["Cutie Master", "CM", false],
+    "fluoxetine_eater": ["Junior Master", "JM", false],
     "ReinhardtC": ["Not Master", "NM", false],
     "alireza2003": ["Lose Master", "LM", true],
     "german11": ["Super Grandmaster", "SGM", true],
